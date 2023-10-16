@@ -1,0 +1,19 @@
+.canvas {
+    width: 256px;
+    height: 256px;
+
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.square {
+    font-size: 10px;
+
+    width: 16px;
+    height: 16px;
+    border: 1px solid black;
+
+    box-sizing: border-box;
+    flex: 1 0 auto;
+}
